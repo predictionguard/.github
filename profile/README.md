@@ -1,8 +1,6 @@
 # Welcome to Prediction Guard
 
 <p align="center">
-  <source media="(prefers-color-scheme: light)" srcset="https://beta.predictionguard.com/pgsuccess.png">
-  <source media="(prefers-color-scheme: dark)" srcset="https://beta.predictionguard.com/pgsuccess.png">
   <img src="https://beta.predictionguard.com/pgsuccess.png" width="65%" height="65%" title="Prediction Guard"
 </p>
 
@@ -10,11 +8,10 @@ Dealing with unruly output from Large Language Models (LLMs)? Get typed, structu
 
 ## How it Works
 
-<p align="center">
-  <source media="(prefers-color-scheme: light)" srcset="https://beta.predictionguard.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmodel_selection.a94fe0df.png&w=1920&q=75">
-  <source media="(prefers-color-scheme: dark)" srcset="https://beta.predictionguard.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmodel_selection.a94fe0df.png&w=1920&q=75">
-  <img src="https://beta.predictionguard.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmodel_selection.a94fe0df.png&w=1920&q=75" width="75%" height="75%" title="Control the Output of LLMs"
-</p>
+<picture align="center">
+  <source media="(prefers-color-scheme: dark)" srcset="/images/feature1dark.png" width="75%" height="75%">
+  <img src="/images/feature1light.png" width="75%" height="75%">
+</picture>
 
 Boost the performance of open access models like Falcon, MPT, Camel, etc. to GPT levels by guiding output structures and types.
 ### Control the Output of LLMs
@@ -24,11 +21,10 @@ Prediction Guard lets you enforce structure (e.g., valid JSON) and types (intege
   * **Efficient** - Why waste days engineering around unreliable text blob output. Get reliable outputs that can be immediately integrated into enterprise systems.
   * **Performant** - Boost the performance of open access models like Falcon, MPT, Camel, etc. to GPT levels by guiding output structures and types.
 
-<p align="center">
-  <source media="(prefers-color-scheme: light)" srcset="https://beta.predictionguard.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffallback.f8651158.png&w=1920&q=75">
-  <source media="(prefers-color-scheme: dark)" srcset="https://beta.predictionguard.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffallback.f8651158.png&w=1920&q=75">
-  <img src="https://beta.predictionguard.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffallback.f8651158.png&w=1920&q=75" width="75%" height="75%" title="Overcome AI Compliance Issues"
-</p>
+<picture align="center">
+  <source media="(prefers-color-scheme: dark)" srcset="/images/feature2dark.png" width="75%" height="75%">
+  <img src="/images/feature2light.png" width="75%" height="75%">
+</picture>
   
 ### Overcome AI Compliance Issues
   
@@ -37,11 +33,10 @@ Models hosted by Prediction Guard can be integrated in a SOC 2 Type II and HIPAA
 * **Private** - Prevent leakages of IP and PII to public AI APIs with questionable terms. Prediction Guard does not store data you send to LLMs.
 * **Validated** - Squash model hallucinations that might get you in hot water. Take advantage of easy-to-use checks on the consistency, factuality, and toxicity of LLM outputs.
 
-<p align="center">
-  <source media="(prefers-color-scheme: light)" srcset="https://beta.predictionguard.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fswap.d5d3dc00.png&w=1920&q=75">
-  <source media="(prefers-color-scheme: dark)" srcset="https://beta.predictionguard.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fswap.d5d3dc00.png&w=1920&q=75">
-  <img src="https://beta.predictionguard.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fswap.d5d3dc00.png&w=1920&q=75" height="75%" title="Integrate and Ensemble the Latest Models"
-</p>
+<picture align="center">
+  <source media="(prefers-color-scheme: dark)" srcset="/images/feature3dark.png" width="75%" height="75%">
+  <img src="/images/feature3light.png" width="75%" height="75%">
+</picture>
 
 ### Integrate and Ensemble the Latest Models
 
@@ -50,11 +45,10 @@ Let us do the hard work of hosting all the latest open and closed models in a co
 * **Consistent** - All of our models can be called, controlled, and even ensembled via a consistent API. Try new models with zero integration cost and always be SOTA!
 * **Relevant** - Look like a rock star when your leadership asks if you are using the latest AI model. We can keep your secret that this kind of integration takes 5 minutes.
 
-<p align="center">
-  <source media="(prefers-color-scheme: light)" srcset="https://beta.predictionguard.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fintegrations.4de30828.png&w=1920&q=75">
-  <source media="(prefers-color-scheme: dark)" srcset="https://beta.predictionguard.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fintegrations.4de30828.png&w=1920&q=75">
-  <img src="https://beta.predictionguard.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fintegrations.4de30828.png&w=1920&q=75" height="75%" title="Integrate with Popular Frameworks"
-</p>
+<picture align="center">
+  <source media="(prefers-color-scheme: dark)" srcset="/images/feature4dark.png" width="75%" height="75%">
+  <img src="/images/feature4light.png" width="75%" height="75%"> 
+</picture>
 
 ### Integrate with Popular Frameworks
 
