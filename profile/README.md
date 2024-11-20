@@ -1,9 +1,5 @@
 # Prediction Guard - Guard your data, unlock AI value
 
-<p align="center">
-  <img src="https://predictionguard.com/lib_eltrNYEjQbpUWFRI/oy2r533pndpk0q8q.png" width="65%" height="65%" title="Prediction Guard"
-</p>
-
 [Prediction Guard](https://www.predictionguard.com) is a secure, scalable GenAI platform that safeguards sensitive data, runs on affordable hardware, and prevents common AI malfunctions..
 
 ## Built-in security, privacy
