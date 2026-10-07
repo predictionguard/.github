@@ -1,6 +1,6 @@
 # Prediction Guard: The Sovereign AI Control Plane
 
-Prediction Guard gives regulated enterprises **operational control of every agent action, inside their own boundary**.
+Prediction Guard gives regulated enterprises **operational control of every agent action, inside their boundary**.
 
 We're a self-hosted control plane for organizations that operate under strict security and regulatory obligations and need to run fleets of autonomous agents at scale. Prediction Guard runs in your cloud VPC, on your own hardware, or fully air-gapped, so prompts, tool calls, and logs never leave your trust boundary.
 
