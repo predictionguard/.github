@@ -1,35 +1,35 @@
 # Prediction Guard: The Sovereign AI Control Plane
 
-Prediction Guard is the foundational **self-hosted control plane** designed for enterprise organizations that operate under strict security, privacy, or regulatory obligations. 
+Prediction Guard gives regulated enterprises **operational control of every agent action, inside their own boundary**.
 
-While external AI gateways offer "security by proxy," they sit outside your infrastructure and provide only symbolic protection. Prediction Guard brings the entire **security and management system inside your trust boundary**. We empower organizations to move beyond fragmented APIs and external "wrappers" to achieve true internal sovereignty over their entire AI ecosystem.
+We're a self-hosted control plane for organizations that operate under strict security and regulatory obligations and need to run fleets of autonomous agents at scale. Prediction Guard runs in your cloud VPC, on your own hardware, or fully air-gapped, so prompts, tool calls, and logs never leave your trust boundary.
 
 ---
 
-## 🏗️ Beyond the Gateway: True AI Sovereignty
-If an AI gateway is a door, Prediction Guard is the building’s entire security and management system. We provide a comprehensive, internal solution ensuring you remain in total command of your AI future.
+## What you control
 
-* **Sovereign Infrastructure**: Operates entirely within your own VPC or on-premises environment, ensuring sensitive data and governance logic never leave your trust boundary.
-* **Asset Governance**: A unified registry to manage and audit the entire lifecycle of disparate AI assets—including AI models, MCP tools, and autonomous agents.
-* **Proactive Risk Monitoring**: Goes beyond basic filtering to provide model behavior scans, supply-chain vulnerability analysis, and integration with your existing SIEM.
-* **Standardized Compliance**: Automated enforcement of industry best practices, such as NIST and OWASP frameworks, across every interaction.
-* **Telemetry Ownership**: All logs, audit trails, and performance metrics are stored within your own security stack, ensuring data persistence and full visibility for CISO/CIO oversight.
+* **Agent identity and scoped access**: Every agent gets its own identity and only the models, MCP servers, and tools it needs. Least agency by default.
+* **Runtime Controls**: Component input and output controls (PII, injection attempts, toxicity) and agent behavior controls (tool misuse, memory poisoning, runaway token use) are enforced on every call, not after the fact.
+* **Interventions**: Kill switches, human-in-the-loop approvals, and token and spend enforcement stop bad behavior as it happens and limit the blast radius.
+* **Supply chain**: One registry for the models, MCP servers, and tools your agents rely on, with AIBOM export and model risk scoring.
+* **Evidence**: Every agent action lands in an Immutable Audit Log mapped to NIST AI RMF, OWASP, and ISO 42001, and streams to your SIEM.
+* **Agent Forge**: A no-code builder for agents that run under the same controls as everything else.
 
-## 🛠️ Key Capabilities
-* **Compose & Consolidate**: Create a vendor-agnostic AI system by unifying disparate AI models, tools, and services into a single, internal control plane.
-* **Scan & Evaluate**: Identify supply-chain and model behavior vulnerabilities before they are integrated into production workflows.
-* **Secure & Govern**: Deploy full-spectrum, standards-aligned security handling everything from prompt injection defense to supply-chain verification.
-* **Agent Studio**: A secure, no-code builder to create agents that tie safely into company knowledge and internal tools without compromising security.
+## Start here
 
-## 💬 Industry Perspectives
+* [**docker-pg-experiment**](https://github.com/predictionguard/docker-pg-experiment): Run coding agents in a Docker Sandbox with Prediction Guard as the second gate of defense.
+* [**pg-accelerator-recipes**](https://github.com/predictionguard/pg-accelerator-recipes): Starter recipes for code-first agents, Agent Forge, and hybrid patterns.
+* [**agentic-ai-security**](https://github.com/predictionguard/agentic-ai-security): Red-team agents and tests for the OWASP Top 10 for Agentic Applications.
+
+## Industry Perspective
+
 > "Prediction Guard is working to unlock the potential of AI for critical missions by bringing the power of the **control plane** right behind the customer's own firewall and ensuring alignment. It's a game-changer for high-security environments."
-> — **Bill Streilein**, CTO Noblis
-
-> "Prediction Guard's system-level security and hardware flexibility are enabling us to support the protection of our clients' data and meet deployment constraints."
-> — **Sung Kim**, CTO Base-t
+>
+> **Bill Streilein**, CTO, Noblis
 
 ---
 
 ### Get Started
+
 Stop relying on rented convenience and start building permanent sovereignty.
-[**Explore the Control Plane**](https://predictionguard.com/get-started)
+[**Get started with Prediction Guard**](https://predictionguard.com/get-started)
